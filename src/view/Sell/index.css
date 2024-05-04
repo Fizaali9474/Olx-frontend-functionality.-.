@@ -1,0 +1,78 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+.con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://wallpaperaccess.com/full/656853.png '); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #d812d8; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  }
+  
+  .brand-div,
+  .title-div,
+  .cat-div,
+  .price-div,
+  .des-div,
+  .img-div
+  {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .brand-head,
+  .title-head,
+  .cat-head,
+  .price-head,
+  .des-head,
+  .img-head
+  {
+    color: #fff; /* White text color */
+    font-size: 20px;
+    font-weight: italic;
+    margin-bottom: 5px;
+  }
+  
+  .brand-input,
+  .title-input,
+  .cat-input,
+  .price-input,
+  .des-input ,
+  .img-input
+  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with slight transparency */
+    color: #333; /* Dark text color */
+    font-style: italic;
+  }
+  
+  .bg-white {
+    border: none;
+    background-color: #cd1eec !important; /* White background color */
+    color: #ffffff; /* Dark text color */
+  }
+  
+  .bg-white:hover {
+    background-color: #f5f5f5; /* Slightly darker shade for hover effect */
+  }
+  
+  .rounded-md {
+    border-radius: 8px;
+  }
+  
+  .transition-all {
+    transition: all 0.3s ease;
+  }
+  

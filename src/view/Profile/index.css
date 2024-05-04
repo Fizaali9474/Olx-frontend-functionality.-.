@@ -1,0 +1,115 @@
+.input-container {
+    margin: 10px 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #002f34;
+  }
+
+  .save-button {
+    padding: 10px;
+    background-color: #002f34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .section-heading2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #014249;
+  }
+
+  .section-heading3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #014249;
+  }
+
+  .section-heading4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #014249;
+  }
+
+  .section-heading5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #014249;
+  }
+
+  .input-name{
+    width: 50%;
+  }
+
+  .input-age{
+    width: 50%;
+  }
+
+  .input-about{
+    width: 50%;
+  
+  }
+
+  .about-in{
+    height: 120px;
+  }
+
+  .input-phone{
+    width: 50%;
+  }
+
+  .input-gmail{
+    width: 50%;
+  
+  }
+
+  .important-info{
+    position: absolute;
+    top: 85%;
+    left: 52%;
+    padding-left: 13px;
+    padding-top: 10px;
+    width: 21% !important;
+    border: 1px solid grey !important;
+    font-size: 13.5px;
+    font-weight: 300;
+  }
+.iconn {
+  position: absolute;
+  width: 32px !important;
+  margin-left: -2%;
+}
+
+h3{
+  font-size: 27px;
+  padding-left: 27px;
+  font-weight: 500;
+}
+
+
+.custom-button:hover {
+  background-color: #2980b9;}
+
+  .pafter{
+    position: absolute;
+    top: 71%;
+    left: 26%;
+  
+    font-size: 11px;
+  }
+  .section-heading1{
+
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

@@ -1,0 +1,193 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "poppins", sans-serif;
+  }
+   */
+  /* ............navbar.............. */
+  .first{
+    height: fit-content;
+  }
+  .search{
+    background-color: black;
+    color: #f7f8f9;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  .header {
+    background-color: #f7f8f9;
+    box-shadow: 0 0 2px grey;
+    /* position: fixed;
+    top: 0%; */
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    width: 1470px;
+    margin: auto;
+  }
+  .navbar img {
+    width: 90px;
+  }
+  .countryselect {
+    width: 350px;
+    margin-left: -170px;
+  }
+  select i {
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+  .select {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+   /* align-items: center;
+   justify-content: space-between;*/
+    border: 2px solid black;
+  }
+  .searchbox {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .searchclass {
+    padding: 10px;
+    width: 1470px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px 0 0 6px;
+  }
+  .language {
+    margin: 20px;
+  }
+  .login{
+    margin-left: 80px;
+  }
+  .sellingpage button {
+    margin-left: 130px;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #23e5db;
+    border-left-color: #ffce32;
+    border-right-color: #3a77ff;
+    border-top-color: #3a77ff;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px 19px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    font-weight: bold;
+  }
+
+  .list ul {
+    display: flex;
+    /* justify-content: space-around; */
+   background-color: #f7f8f9;
+    box-shadow: 0 0 2px rgb(204, 201, 201);
+    border: 1 px solid black;
+  padding: 20px;
+  font-weight: bolder;
+    
+  }
+  li:hover{
+    color: rgb(235, 7, 7);
+  }
+  .list ul li {
+    list-style: none;
+    /* pading: 10px;
+     */
+     padding: 0px;
+     margin-left: 115px;
+     padding-bottom: -30%;
+     cursor: pointer;
+  }
+  .category{
+    position: absolute;
+    left: 8px;
+  margin-top: 17px;
+  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  }
+ 
+  
+  .navbar-nav a {
+     
+      color: black;
+      font-size: 17px;
+      font-weight: 500;
+      margin: 0 25px;
+      transition: all 0.45s ease;
+      text-decoration: none;
+      
+    }
+    .category:hover {
+      color: rgb(255, 53, 2);
+    }
+  
+  .adimg {
+    width: 700px;
+    /* margin: auto; */
+    margin-top: 20px;
+    height: 100px;
+    margin-left: 35px;
+    margin-bottom: 150px;
+  }
+
+  .A{
+    padding: 15px;
+   background-color: rgb(253, 252, 252);
+  
+  }
+  .second{
+  margin-top: 10px;
+  }
+  
+
+
+  .input-login a{
+    color: #002f34;
+    font-weight: 600;
+   
+}
+.input-login a:hover{
+    text-decoration: none;
+}
+.logout-section{
+    /* height: 50px;
+    width: 100px; */
+    background-color: rgb(247,248,248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    top: 80px;
+    right: 120px;
+    border-radius: 6px;
+    display: none;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.233);
+}
+.logout-section:active{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.233);
+  }
+ .input-login:hover .logout-section{
+        display: block;
+      }
+ .input-login{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /* width: 100px; */
+      }
